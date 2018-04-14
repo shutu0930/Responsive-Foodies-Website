@@ -3,9 +3,11 @@
     <head>
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <title>Foodies</title>
     
@@ -19,29 +21,30 @@
             <nav>
                 <div class="row">
                     <img src="resources/img/logo-white.png" alt="Foodies Logo" class="logo">
+                    <img src="resources/img/logo-black.png" alt="Foodies Logo" class="logo-black">
                     <ul class="main-nav">
-                        <li><a href="#">What We Offer</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Our cities</a></li>
-                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#features">What We Offer</a></li>
+                        <li><a href="#steps">How it works</a></li>
+                        <li><a href="#locations">Our cities</a></li>
+                        <li><a href="#plans">Sign up</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="header-text-box">
                 <h1>The choice is easy <br> when it's Real Food.</h1>
-                <a class="btn btn-full" href="#">I’m hungry</a>
-                <a class="btn btn-unfull" href="#">See the menu</a>
+                <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+                <a class="btn btn-unfull js--scroll-to-features" href="#">See the menu</a>
             
             </div>
         </header>
         
-        <section class="section-features">
+        <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>What we offer</h2>
                 <p class="intro">Hello, we’re Foodies, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
             
             </div>
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-list-outline icon-large"></i>
 
@@ -130,14 +133,14 @@
         
         </section>
         
-        <section class="section-steps">
+        <section class="section-steps" id="steps">
             <div class="row">
                 <h2>HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
             </div>
             
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/IPhone_with_icons.png" alt="app on the phone" class="app-screen">
+                    <img src="resources/img/IPhone_with_icons.png" alt="app on the phone" class="app-screen js--wp-2">
                 </div>
                 
                 <div class="col span-1-of-2 steps-box">
@@ -165,11 +168,11 @@
         
         </section>
 
-        <section class="section-locations">
+        <section class="section-locations" id="locations">
             <div class="row">
                 <h2>Our current branches and locations</h2>
             </div>
-            <div class="row">
+            <div class="row js--wp-3">
                 <div class="col span-1-of-4 box">
                     <img src="resources/img/lisbon-3.jpg" alt="lisbon">
                     <h3>Lisbon</h3>
@@ -283,13 +286,13 @@
         
         </section>
         
-        <section class="section-pricing">
+        <section class="section-pricing js--section-plans" id="plans">
             <div class="row">
                 <h2>Start eating real today</h2>
             </div>
             
             <div class="row">
-                <div class="col span-1-of-3">
+                <div class="col span-1-of-3 js--wp-4">
                     <div class="pricing-box">
                         <div>
                             <h3>Premium</h3>
@@ -474,12 +477,12 @@
         
         
         
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="resources/js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
     
     </body>
 
